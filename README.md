@@ -1,73 +1,58 @@
-## ✅ Python Learning Roadmap (Jo Tumne Complete Kiya)
+I learned:
 
-1. **Setup & Installation**
+* Install Python and IDEs (PyScripter, PyCharm)
+* First program and variables
+* Input, output, type conversion
+* Strings, operators, and comments
+* If-else, logical and comparison operators
+* Loops (for, while, break, continue)
+* Data structures: list, tuple, set, dictionary
+* Functions
 
-   * Python install (Windows & Mac)
-   * PyScripter IDE (Windows only) aur uska use
-   * PyCharm IDE (Windows & Mac)
-
-2. **Python Basics**
-
-   * File creation aur first program (Hello World)
-   * Variables aur data storage
-   * Input aur Output handling
-   * Concatenation (string join)
-   * Type conversion (str → int → float)
-   * Arithmetic operations aur precedence
-   * Comments, keywords, shortcuts
-
-3. **Core Concepts**
-
-   * Strings
-   * Comparison & Logical operators
-   * If-else conditions
-   * Loops: while, for, range
-   * Break & Continue
-
-4. **Data Structures**
-
-   * List aur list iteration
-   * Tuple (immutable sequences)
-   * Set (unique elements)
-   * Dictionary (key-value pairs)
-
-5. **Functions**
-
-   * Function definition aur calling
-   * Parameters aur return values
-
-6. **Practice & Mini Projects**
-
-   * Exercises (small problems)
-   * Ek chhota mini-project for practice
+This gives me a **strong base**.
 
 ---
 
-## 🚀 Ab Tumhare Next Step — Projects
+# 🚀 5 Slightly Advanced Python Projects
 
-Tum basics pe command rakhte ho. Ab tumhe projects karne chahiye jo beginner se thoda intermediate touch dete hain. Yahan 5 project ideas hain jo tum kar sakte ho:
+### 1. **Student Report Card System**
 
-### 🔹 1. **Number Guessing Game**
+* Store student names and marks in a dictionary.
+* Calculate total, average, grade (A, B, C, Fail).
+* User can add, update, and view reports.
+* Concepts: dictionary, loops, functions.
 
-* User ek number guess kare, aur program bataye zyada hai ya kam.
-* Random module use karo.
+---
 
-### 🔹 2. **To-Do List App (Console Version)**
+### 2. **Weather App (API-based)**
 
-* User tasks add, remove, update kar sake.
-* List aur dictionary ka use karke simple task manager banao.
+* Use an API like [OpenWeather](https://openweathermap.org/api).
+* User enters a city → program shows temperature, humidity, and weather.
+* Concepts: requests (API call), JSON handling, functions.
 
-### 🔹 3. **Simple Calculator**
+---
 
-* User se 2 numbers lo aur +, -, \*, / operations implement karo.
-* Exception handling bhi add kar sakte ho (divide by zero case).
+### 3. **Library Management System (Console App)**
 
-### 🔹 4. **Password Generator**
+* Store books in a dictionary (book name → availability).
+* User can: add book, borrow book, return book, view all books.
+* Concepts: dictionary, loops, input/output, functions.
 
-* Random letters, numbers, aur special characters use karke password generate karo.
-* User se input lo (length of password).
+---
 
-### 🔹 5. **Quiz Game**
+### 4. **Expense Tracker**
 
-* Questions aur multiple choices dictionary me store karo.
-* User answer kare, aur program score calculate kare.
+* User can add expenses (amount + category).
+* Program shows total spent, spending by category.
+* Save expenses in a list or dictionary.
+* Concepts: list/dictionary, loops, functions.
+
+---
+
+### 5. **Flashcard Quiz App**
+
+* User studies with flashcards.
+* Dictionary stores questions and answers.
+* Program asks random questions → user types answer → program checks correct or not.
+* At the end, show score.
+* Concepts: dictionary, random module, loops, functions.
